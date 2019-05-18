@@ -1,0 +1,42 @@
+/* ====================== */
+/*         ASSETS         */
+/* ====================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 1030px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* ====================== */
+/*         LAYOUT         */
+/* ====================== */
+.header {
+  padding: 25px 0;
+}
+.header .logo {
+  font-size: 40px;
+  color: #999;
+  text-decoration: none;
+}
+.header .logo span {
+  font-weight: 700;
+  color: #049bd2;
+}
+.header .nav ul {
+  list-style: none;
+}
+.header .nav ul li {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */

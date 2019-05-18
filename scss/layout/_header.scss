@@ -1,0 +1,27 @@
+.header {
+    padding: 25px 0;
+
+    // Logo
+    .logo {
+        font-size: 40px;
+        color: $grey;
+        text-decoration: none;
+
+        span {
+            font-weight: 700;
+            color: $blue;
+        }
+    }
+    // Logo
+
+    // Nav
+    .nav {
+        ul {
+            list-style: none;
+            li {
+                display: inline-block;
+            }
+        }
+    }
+    // Nav
+}
