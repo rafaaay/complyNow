@@ -39,4 +39,9 @@ body {
   display: inline-block;
 }
 
+.banner {
+  background: url(../images/banner-img-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
