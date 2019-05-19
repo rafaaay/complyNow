@@ -28,6 +28,7 @@ body {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all .5s;
 
     &:hover {
         background: -webkit-linear-gradient(left, $darkBlue 0%, $blue 100%);

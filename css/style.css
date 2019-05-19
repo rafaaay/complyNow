@@ -31,6 +31,7 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all 0.5s;
 }
 .btn:hover {
   background: -webkit-linear-gradient(left, #1759ad 0%, #049bd2 100%);
@@ -54,9 +55,20 @@ body {
 }
 .header .nav ul {
   list-style: none;
+  text-align: right;
+  width: 100%;
 }
 .header .nav ul li {
   display: inline-block;
+  margin: 0 15px;
+}
+.header .nav ul li a {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header .nav ul li a:hover {
+  color: #049bd2;
 }
 
 .banner {

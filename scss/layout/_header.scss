@@ -18,8 +18,21 @@
     .nav {
         ul {
             list-style: none;
+            text-align: right;
+            width: 100%;
             li {
                 display: inline-block;
+                margin: 0 15px;
+
+                a {
+                    color: $dark;
+                    text-transform: uppercase;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $blue;
+                    }
+                }
             }
         }
     }
