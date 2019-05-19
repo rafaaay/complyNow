@@ -13,3 +13,25 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.btn {
+    display: inline-block;
+    min-width: 250px;
+    font-size: 20px;
+    font-weight: 700;
+    color: $white;
+    background: -webkit-linear-gradient(left, $blue 0%, $darkBlue 100%);
+    background: linear-gradient(to right, $blue 0%, $darkBlue 100%);
+    vertical-align: top;
+    border-radius: 99px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+        background: -webkit-linear-gradient(left, $darkBlue 0%, $blue 100%);
+        background: linear-gradient(to right, $darkBlue 0%, $blue 100%);
+    }
+
+}
